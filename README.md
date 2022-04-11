@@ -92,11 +92,17 @@ sequenceDiagram
     B ->> C: request something
     C ->> C: rander something
     C ->> B: 200 OK
-    C ->> A: response 200 OK
+    C -> B: response body
+    C -->> A: response 200 OK
+    C --> A: response body
 ```
 
 - The `participant Label` represents a participant component of the sequence diagram.
 - A line between participants follows the rule: `Label ->> Label: Comment above line`
+- `->>` represents a solid line with arrow.
+- `->` represents a solid line without arrow.
+- `-->>` represents a dotted line with arrow. 
+- `-->` represents a dotted line without arrow.
 
 ## Reference Links
 
