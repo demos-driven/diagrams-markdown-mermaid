@@ -60,6 +60,9 @@ flowchart TD
     
 ```
 
+The line length of three-dash `---` is longer than the two-dash `--` one. And the least number of 
+the dash must be 2.
+
 ### Example 4: Conditional Branch
 
 ```mermaid
@@ -70,6 +73,8 @@ flowchart TD
     C ---> E[Enjob your life!]
     D ---> E
 ```
+
+The conditional block is marked as `Block_Label{}`.
 
 ## Sequence Diagram
 
@@ -89,6 +94,9 @@ sequenceDiagram
     C ->> B: 200 OK
     C ->> A: response 200 OK
 ```
+
+- The `participant Label` represents a participant component of the sequence diagram.
+- A line between participants follows the rule: `Label ->> Label: Comment above line`
 
 ## Reference Links
 
