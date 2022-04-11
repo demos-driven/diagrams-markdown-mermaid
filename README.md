@@ -37,7 +37,7 @@ flowchart LR
 
 `flowchart LR` means `flowchart left-right`.
 
-### Example 2: Block Name
+### Example 3: Block Name
 
 ```mermaid
 flowchart
@@ -49,7 +49,7 @@ flowchart
 
 The diagram `default` direction is `Top-Down`.
 
-### Example 3: Line Length
+### Example 4: Line Length
 
 ```mermaid
 flowchart TD
@@ -63,7 +63,7 @@ flowchart TD
 The line length of three-dash `---` is longer than the two-dash `--` one. And the least number of 
 the dash must be 2.
 
-### Example 4: Conditional Branch
+### Example 5: Conditional Branch
 
 ```mermaid
 flowchart TD
@@ -78,7 +78,7 @@ The conditional block is marked as `Block_Label{}`.
 
 ## Sequence Diagram
 
-### Example 5: Get Started
+### Example 6: Get Started
 ```mermaid
 sequenceDiagram
     participant A
